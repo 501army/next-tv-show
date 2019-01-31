@@ -1,10 +1,9 @@
 import React from 'react'
-import Link from 'next/link'
 import Head from '../components/head'
 import Nav from '../components/nav'
 import Foot from '../components/foot'
 import 'bootstrap/dist/css/bootstrap.css'
-import {Container,Row,Col,Card,CardHeader,CardBody,CardImg,CardTitle,CardText,CardFooter,Button,Form,FormGroup, Label, Input, FormText} from 'reactstrap'
+import {Container,Row,Col,Card,CardBody,CardImg,CardFooter,Button,Form,FormGroup, Label, Input} from 'reactstrap'
 import fetch from 'isomorphic-unfetch'
 
 export default class extends React.Component{

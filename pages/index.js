@@ -4,7 +4,7 @@ import Head from '../components/head'
 import Nav from '../components/nav'
 import Foot from '../components/foot'
 import 'bootstrap/dist/css/bootstrap.css'
-import {Container,Row,Col,Card,CardHeader,CardBody,CardTitle,CardText,Button} from 'reactstrap'
+import {Container,Row,Col,Card,CardHeader,CardBody,CardText,Button} from 'reactstrap'
 
 const Home = () => (
   <div>
