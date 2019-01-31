@@ -1,8 +1,6 @@
 import React from 'react'
-import Link from 'next/link'
 import Head from '../components/head'
 import Nav from '../components/nav'
-import Foot from '../components/foot'
 import 'bootstrap/dist/css/bootstrap.css'
 import {Container,Row,Col,Table,Spinner} from 'reactstrap'
 import fetch from 'isomorphic-unfetch'
