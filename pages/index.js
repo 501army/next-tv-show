@@ -23,7 +23,7 @@ const Home = () => (
             <CardHeader>TV Show Schedule</CardHeader>
             <CardBody>
               <CardText>Get TV show schedule from TVMaze API</CardText>
-              <Button color="primary">View schedule</Button>
+              <Link prefetch href="/schedule"><Button color="primary">View schedule</Button></Link>
             </CardBody>
           </Card>
         </Col>
